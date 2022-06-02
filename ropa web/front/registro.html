@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/registro.css">
+  <title>Document</title>
+</head>
+<body style="background-image: url(img/login.jpg); background-repeat:no-repeat; background-attachment:fixed; background-size: cover;">
+  <div class="page">
+    <div class="container">
+      <div class="left">
+
+        <div class="login" >Registrate</div>
+        <div class="eula">Registrate en nuestra pagina para adquirir beneficios como descuentos y ofertas exclusivas.</div>
+      
+      </div>
+      <div class="right">
+   
+        <p style="text-align:center; font-size: 30px; margin:10px;margin-bottom: 0px;">Formulario</p>
+        <form action="" id="formulario">
+        <div class="form">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" placeholder="Ej: Alvaro">
+
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" placeholder="Ej: Cardenas">
+            
+            <label for="sexo">Sexo</label>
+            <div class="uk-margin">
+              <select class="uk-select" type="select" id="sexo" style="background-color: rgba(0, 0, 0, 0.678); color:white"> 
+                  <option>Hombre</option>
+                  <option>Mujer</option>
+                  <option>No binario</option>
+                  <option>Otro</option>
+              </select>
+            </div>
+
+            <label for="rut">Rut</label>
+           <input type="text" id="txt-rut" class="form-control" placeholder="ej:34.567.923-k">
+
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Ej: ALv@gmail.com">
+
+          <label for="telefono">Telefono</label>
+          <input type="text" id="telefono" placeholder="Ej: 94563245">
+
+          <label for="password1">Contraseña</label>
+          <input type="password" id="password1">
+
+          <label for="password2">Repetir Contraseña</label>
+          <input type="password" id="password2">
+
+          <a><input style="float: left;" type="submit" id="submit" value="Iniciar"></a>
+        </div>
+      </form>
+      </div>
+    </div>
+  </div>
+  <script src="js/login.js"></script>
+</body>
+</html>
